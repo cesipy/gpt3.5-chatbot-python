@@ -1,6 +1,4 @@
-Sure! Here is a simple README for your program:
 
----
 
 # OpenAI Chatbot
 
@@ -17,7 +15,7 @@ To use this chatbot, you'll need:
 
 1. Clone this repository:
     ```sh
-    git clone https://github.com/yourusername/yourrepository.git
+    git clone https://github.com/cesipy/gptchat-with-history.git
     ```
 
 2. Install the OpenAI Python client:
@@ -46,6 +44,4 @@ python main.py -tokens
 
 This is a basic implementation of a chatbot. It does not handle multi-turn conversations, manage tokens to ensure responses do not exceed maximum token limits, or handle API errors gracefully.
 
----
 
-Please replace `'your-api-key'` with your actual OpenAI API key, and `https://github.com/yourusername/yourrepository.git` with the actual URL of your GitHub repository. The `-tokens` flag is optional, and can be used to display the token usage of the model's responses.
