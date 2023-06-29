@@ -40,8 +40,9 @@ You can also use the `-tokens` flag to display the token usage after each AI res
 python main.py -tokens
 ```
 
-## Note
+## Still to Do:
 
-This is a basic implementation of a chatbot. It does not handle multi-turn conversations, manage tokens to ensure responses do not exceed maximum token limits, or handle API errors gracefully.
-
+    - limit the message_history, so max tokens aren't reached
+    - handle exceptions
+    - exit gracefully
 
